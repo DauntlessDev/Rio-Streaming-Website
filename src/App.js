@@ -1,11 +1,13 @@
 import React from 'react';
-import './App.css';
+import Header from './components/main/Header';
+import Navigation from './components/main/Navigation';
 
-//f2be2c6245a797ea9384a28cff7ead94
 function App() {
   return (
     <div className="App">
       <body>
+        <Navigation />
+        <Header />
 
 
       </body>
