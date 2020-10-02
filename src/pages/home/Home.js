@@ -1,6 +1,6 @@
 import React from 'react'
-import originalpicture from '../../assets/images/sample_image.jpg'
-import longpicture from '../../assets/images/sample_image_long.jpg'
+import GenreCard from './components/GenreCard'
+import MovieCard from './components/MovieCard'
 
 export default function Home() {
 
@@ -9,75 +9,85 @@ export default function Home() {
             <div class="list originals">
                 <h1>Netflix Originals</h1>
                 <ul>
-                    <li><img src={originalpicture} alt='sample' /></li>
-                    <li><img src={originalpicture} alt='sample' /></li>
-                    <li><img src={originalpicture} alt='sample' /></li>
-                    <li><img src={originalpicture} alt='sample' /></li>
-                    <li><img src={originalpicture} alt='sample' /></li>
-                    <li><img src={originalpicture} alt='sample' /></li>
-                    <li><img src={originalpicture} alt='sample' /></li>
-                    <li><img src={originalpicture} alt='sample' /></li>
-                    <li><img src={originalpicture} alt='sample' /></li>
-                    <li><img src={originalpicture} alt='sample' /></li>
-                    <li><img src={originalpicture} alt='sample' /></li>
-                    <li><img src={originalpicture} alt='sample' /></li>
-                    <li><img src={originalpicture} alt='sample' /></li>
+                    <MovieCard />
+                    <MovieCard />
+                    <MovieCard />
+                    <MovieCard />
+                    <MovieCard />
+                    <MovieCard />
+                    <MovieCard />
+                    <MovieCard />
+                    <MovieCard />
+                    <MovieCard />
+                    <MovieCard />
+                    <MovieCard />
+                    <MovieCard />
+                    <MovieCard />
+                    <MovieCard />
                 </ul>
 
             </div>
             <div class="list genre romance">
                 <h1>Romance Movies</h1>
                 <ul>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
                 </ul>
             </div>
             <div class="list genre horror">
                 <h1>Horror Movies</h1>
                 <ul>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
                 </ul>
             </div>
             <div class="list genre documentaries">
                 <h1>Documentaries</h1>
                 <ul>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
-                    <li><img src={longpicture} alt='sample' /></li>
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
+                    <GenreCard />
                 </ul>
             </div>
 
