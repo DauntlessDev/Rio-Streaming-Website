@@ -3,7 +3,9 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    overflow-x: hidden;
 }
+
 
 body{
     color: white;
@@ -80,4 +82,11 @@ body{
 
 #header p{
     max-width: 370px;
+}
+
+#footer{
+    background-color: #191A1C;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
 }
